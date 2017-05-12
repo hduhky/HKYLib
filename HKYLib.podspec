@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HKYLib'
-  s.version          = '0.0.2'
-  s.summary          = 'A short description of HKYLib.'
+  s.version          = '0.0.3'
+  s.summary          = 'HKYLib succeed???'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
 
 
   s.ios.vendored_libraries = 'HKYLib/Lib/*.a'
-  s.public_header_files = 'Pod/Classes/**/HKYHeader.h', 'Pod/Classes/**/HKYCalculate.h'
+  s.public_header_files = 'HKYLib/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
