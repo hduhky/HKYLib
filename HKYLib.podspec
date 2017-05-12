@@ -36,6 +36,8 @@ TODO: Add long description of the pod here.
   #   'HKYLib' => ['HKYLib/Assets/*.png']
   # }
 
+
+  s.ios.vendored_libraries = 'HKYLib/Lib/*.a'
   s.public_header_files = 'Pod/Classes/**/HKYHeader.h', 'Pod/Classes/**/HKYCalculate.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

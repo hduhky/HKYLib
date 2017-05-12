@@ -1,5 +1,5 @@
 PODS:
-  - HKYLib (0.1.0)
+  - HKYLib (0.0.1)
 
 DEPENDENCIES:
   - HKYLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HKYLib: ac4889a7618a2ab119bfba01f9387733dfae5eec
+  HKYLib: f46bddeba5d9249a10443eeec658e39223e0a25b
 
 PODFILE CHECKSUM: 94b8427d8c3fa1c85183f0d5b8c1a2cbf193bf3f
 
