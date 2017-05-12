@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033620AAE1FC76B92EEBAE8EEBF04261 /* HKYHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = FD755327925BBECB0F78BDBF701FD69D /* HKYHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15C175A6FA8B7B14800D9D85116E6478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		198F271EA21D65289FF8E16A57A99DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1D89927009215B1BAE30E797F893EF2E /* HKYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9C6211DE223D4DCBDA9239CE46937B /* HKYUtils.m */; };
+		39878014F815964A2BA9601ADAB4F7D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5006BC920CD596314F27E9CF9E19DC0F /* HKYCalculate.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E2E7F6FC17A52F1CC60CDDEA106A18 /* HKYCalculate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A017B599DFBFE5D6DD4EA159BA9AA02 /* HKYLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF71D727A9D907A524703EC838E3D40 /* HKYLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B2730B89A05210E6F20A884D496BEEB /* HKYLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 299F8FFA6177EA433D415608F273DA1A /* HKYLog.m */; };
+		6F273DF29A05CF957702CBC889B6CEFE /* HKYCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53509372D2868FAADAD86BEE6F12099D /* HKYCalculate.m */; };
+		727ED35CBD080F1587059AFF60B38200 /* HKYLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC915981397375509BFF0C7BE1E0CCF /* HKYLib-dummy.m */; };
+		9152897E4E3E31BB5821011EAEB7425A /* Pods-HKYLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE6850E989520EAA46BDB826E0E2211 /* Pods-HKYLib_Tests-dummy.m */; };
+		99016911E24FE4202A8E714EEA728721 /* Pods-HKYLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C39FBAFDDF19059170EF6ABA9F48D9C /* Pods-HKYLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF0D08CB67D70425571732CEFA3F7D3C /* HKYLog.h in Headers */ = {isa = PBXBuildFile; fileRef = DADD0308A6D7C9B9AE6F52A775A3DAE6 /* HKYLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF36F1EAC0D4B4E143941873A89F914A /* Pods-HKYLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6151616A798EF61CBC3DD562371896 /* Pods-HKYLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5BD112BD5A45D9C2E6633A4390BC2F9 /* Pods-HKYLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF6F14E5BBCB8D66F62A53650D99C5 /* Pods-HKYLib_Example-dummy.m */; };
+		DAC83A3C63542D06365623CA448BC939 /* HKYUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A97C938C6476B10D3404BB00723444 /* HKYUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DA841E8664AED2F027E5EAD8944E549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CC0B74297AEA98B5BC1A270CEFA5FF;
+			remoteInfo = HKYLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EB038A1D35E643A837D271ECD13137F /* Pods-HKYLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HKYLib_Example.modulemap"; sourceTree = "<group>"; };
+		17E203B9A3CEEF5F42727B3F69AFF77F /* HKYLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HKYLib.framework; path = HKYLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5C6FE09B4173438C4B30333766B572 /* Pods-HKYLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HKYLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2135512F68E864D7F1780107FF4C5EFB /* Pods-HKYLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKYLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		299F8FFA6177EA433D415608F273DA1A /* HKYLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HKYLog.m; sourceTree = "<group>"; };
+		29EC2FDEEA2FDD8CA8BF63ADCD2CD89B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C39FBAFDDF19059170EF6ABA9F48D9C /* Pods-HKYLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HKYLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		2DE6850E989520EAA46BDB826E0E2211 /* Pods-HKYLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKYLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		35E2E7F6FC17A52F1CC60CDDEA106A18 /* HKYCalculate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HKYCalculate.h; sourceTree = "<group>"; };
+		4FA05875F97B4118D7CCA60C85B9840F /* Pods_HKYLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKYLib_Tests.framework; path = "Pods-HKYLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53509372D2868FAADAD86BEE6F12099D /* HKYCalculate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HKYCalculate.m; sourceTree = "<group>"; };
+		561592E83989D503139DD8E98284B42D /* Pods-HKYLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HKYLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66A97C938C6476B10D3404BB00723444 /* HKYUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HKYUtils.h; sourceTree = "<group>"; };
+		7B9B1C4603505DB860CF61FD154A4816 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF93D2A1CEDB8A04F2F9CBD5976ADA5 /* Pods-HKYLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKYLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95AF9DF3C163CAE54D0DBA3C89C43750 /* Pods-HKYLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HKYLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		98EF6F14E5BBCB8D66F62A53650D99C5 /* Pods-HKYLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKYLib_Example-dummy.m"; sourceTree = "<group>"; };
+		AA6DE7413E256BB9A4086E600238E952 /* Pods-HKYLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HKYLib_Tests.modulemap"; sourceTree = "<group>"; };
+		AAE539E231D975FB860909C78A361D8C /* HKYLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HKYLib.modulemap; sourceTree = "<group>"; };
+		ACE1E470C598CF02892B3F6E2E8D2BE9 /* Pods-HKYLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKYLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B24FD1FD710E1C26B10946BED1CB2B99 /* Pods-HKYLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HKYLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD9C6211DE223D4DCBDA9239CE46937B /* HKYUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HKYUtils.m; sourceTree = "<group>"; };
+		BDC915981397375509BFF0C7BE1E0CCF /* HKYLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HKYLib-dummy.m"; sourceTree = "<group>"; };
+		C1A759BECA4F1D51E822B794872D26F1 /* HKYLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HKYLib.xcconfig; sourceTree = "<group>"; };
+		C3613252C6CEE3A5057FA646E6F9230D /* Pods-HKYLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKYLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE9F1FBBA4F10A1A444BCC9E458987B1 /* HKYLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKYLib-prefix.pch"; sourceTree = "<group>"; };
+		DADD0308A6D7C9B9AE6F52A775A3DAE6 /* HKYLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HKYLog.h; sourceTree = "<group>"; };
+		DB6151616A798EF61CBC3DD562371896 /* Pods-HKYLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HKYLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E120CEA633761B671300E822B281E29B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E263C1C714A55D9B40E9D4D1D8667F /* Pods-HKYLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HKYLib_Example-resources.sh"; sourceTree = "<group>"; };
+		E60FD72296EDB5B2124DC80DCD3921E7 /* Pods-HKYLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKYLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB6CF4754560A649F96F0AE1B5EC8B3A /* Pods-HKYLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HKYLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F117DECF51DBE5EBEE6EC7C364D8186D /* Pods_HKYLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKYLib_Example.framework; path = "Pods-HKYLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEE2A618760C3870AA216F8884AA37D /* Pods-HKYLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKYLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FD755327925BBECB0F78BDBF701FD69D /* HKYHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HKYHeader.h; sourceTree = "<group>"; };
+		FFF71D727A9D907A524703EC838E3D40 /* HKYLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKYLib-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F12DF5B0A449E0D1332EF5DDA6267E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C175A6FA8B7B14800D9D85116E6478 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B4178CBF0F92251EA7F670D6C0CC77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198F271EA21D65289FF8E16A57A99DF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6A771673252668335FF1F0882480A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39878014F815964A2BA9601ADAB4F7D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E378E67C804496F209AE2337E2448CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAE539E231D975FB860909C78A361D8C /* HKYLib.modulemap */,
+				C1A759BECA4F1D51E822B794872D26F1 /* HKYLib.xcconfig */,
+				BDC915981397375509BFF0C7BE1E0CCF /* HKYLib-dummy.m */,
+				CE9F1FBBA4F10A1A444BCC9E458987B1 /* HKYLib-prefix.pch */,
+				FFF71D727A9D907A524703EC838E3D40 /* HKYLib-umbrella.h */,
+				29EC2FDEEA2FDD8CA8BF63ADCD2CD89B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HKYLib";
+			sourceTree = "<group>";
+		};
+		5DC6D6FA51C47091D00DBE5DEA8904F3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC1C9A5A3EFF66BB358BC7AF79591039 /* HKYLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6ABD383392352AC9B6671E5E9201A186 /* HKYLib */ = {
+			isa = PBXGroup;
+			children = (
+				C9812942FCDE3B6D259CC2087AEB7C3A /* Classes */,
+			);
+			name = HKYLib;
+			path = HKYLib;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5DC6D6FA51C47091D00DBE5DEA8904F3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EE9D9D275E7FECCDCAE3E08BE3E44679 /* Products */,
+				BDF9A086EA74848F62E74C2D5309D64F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88D36358A33305D420385C0A6EEA3EEA /* Pods-HKYLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B9B1C4603505DB860CF61FD154A4816 /* Info.plist */,
+				AA6DE7413E256BB9A4086E600238E952 /* Pods-HKYLib_Tests.modulemap */,
+				B24FD1FD710E1C26B10946BED1CB2B99 /* Pods-HKYLib_Tests-acknowledgements.markdown */,
+				C3613252C6CEE3A5057FA646E6F9230D /* Pods-HKYLib_Tests-acknowledgements.plist */,
+				2DE6850E989520EAA46BDB826E0E2211 /* Pods-HKYLib_Tests-dummy.m */,
+				EB6CF4754560A649F96F0AE1B5EC8B3A /* Pods-HKYLib_Tests-frameworks.sh */,
+				95AF9DF3C163CAE54D0DBA3C89C43750 /* Pods-HKYLib_Tests-resources.sh */,
+				DB6151616A798EF61CBC3DD562371896 /* Pods-HKYLib_Tests-umbrella.h */,
+				E60FD72296EDB5B2124DC80DCD3921E7 /* Pods-HKYLib_Tests.debug.xcconfig */,
+				FAEE2A618760C3870AA216F8884AA37D /* Pods-HKYLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-HKYLib_Tests";
+			path = "Target Support Files/Pods-HKYLib_Tests";
+			sourceTree = "<group>";
+		};
+		AC1C9A5A3EFF66BB358BC7AF79591039 /* HKYLib */ = {
+			isa = PBXGroup;
+			children = (
+				6ABD383392352AC9B6671E5E9201A186 /* HKYLib */,
+				1E378E67C804496F209AE2337E2448CF /* Support Files */,
+			);
+			name = HKYLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B62E480A91594A79781BF73297F719EE /* Pods-HKYLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E120CEA633761B671300E822B281E29B /* Info.plist */,
+				0EB038A1D35E643A837D271ECD13137F /* Pods-HKYLib_Example.modulemap */,
+				561592E83989D503139DD8E98284B42D /* Pods-HKYLib_Example-acknowledgements.markdown */,
+				2135512F68E864D7F1780107FF4C5EFB /* Pods-HKYLib_Example-acknowledgements.plist */,
+				98EF6F14E5BBCB8D66F62A53650D99C5 /* Pods-HKYLib_Example-dummy.m */,
+				1E5C6FE09B4173438C4B30333766B572 /* Pods-HKYLib_Example-frameworks.sh */,
+				E3E263C1C714A55D9B40E9D4D1D8667F /* Pods-HKYLib_Example-resources.sh */,
+				2C39FBAFDDF19059170EF6ABA9F48D9C /* Pods-HKYLib_Example-umbrella.h */,
+				8DF93D2A1CEDB8A04F2F9CBD5976ADA5 /* Pods-HKYLib_Example.debug.xcconfig */,
+				ACE1E470C598CF02892B3F6E2E8D2BE9 /* Pods-HKYLib_Example.release.xcconfig */,
+			);
+			name = "Pods-HKYLib_Example";
+			path = "Target Support Files/Pods-HKYLib_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDF9A086EA74848F62E74C2D5309D64F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B62E480A91594A79781BF73297F719EE /* Pods-HKYLib_Example */,
+				88D36358A33305D420385C0A6EEA3EEA /* Pods-HKYLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C9812942FCDE3B6D259CC2087AEB7C3A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				35E2E7F6FC17A52F1CC60CDDEA106A18 /* HKYCalculate.h */,
+				53509372D2868FAADAD86BEE6F12099D /* HKYCalculate.m */,
+				FD755327925BBECB0F78BDBF701FD69D /* HKYHeader.h */,
+				DADD0308A6D7C9B9AE6F52A775A3DAE6 /* HKYLog.h */,
+				299F8FFA6177EA433D415608F273DA1A /* HKYLog.m */,
+				66A97C938C6476B10D3404BB00723444 /* HKYUtils.h */,
+				BD9C6211DE223D4DCBDA9239CE46937B /* HKYUtils.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EE9D9D275E7FECCDCAE3E08BE3E44679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E203B9A3CEEF5F42727B3F69AFF77F /* HKYLib.framework */,
+				F117DECF51DBE5EBEE6EC7C364D8186D /* Pods_HKYLib_Example.framework */,
+				4FA05875F97B4118D7CCA60C85B9840F /* Pods_HKYLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		911A1E2B4EDD978A92EC1B28F2ED3D4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF36F1EAC0D4B4E143941873A89F914A /* Pods-HKYLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939B090C9661BA5AB854AEAFE6CC400C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5006BC920CD596314F27E9CF9E19DC0F /* HKYCalculate.h in Headers */,
+				033620AAE1FC76B92EEBAE8EEBF04261 /* HKYHeader.h in Headers */,
+				5A017B599DFBFE5D6DD4EA159BA9AA02 /* HKYLib-umbrella.h in Headers */,
+				BF0D08CB67D70425571732CEFA3F7D3C /* HKYLog.h in Headers */,
+				DAC83A3C63542D06365623CA448BC939 /* HKYUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E8739C0B2A74501968A5AAB68E57E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99016911E24FE4202A8E714EEA728721 /* Pods-HKYLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10CC0B74297AEA98B5BC1A270CEFA5FF /* HKYLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E692CC2563F93FE128E00936D5F26046 /* Build configuration list for PBXNativeTarget "HKYLib" */;
+			buildPhases = (
+				9B1E46F62B990B75A8E56E4C53818446 /* Sources */,
+				DF6A771673252668335FF1F0882480A3 /* Frameworks */,
+				939B090C9661BA5AB854AEAFE6CC400C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HKYLib;
+			productName = HKYLib;
+			productReference = 17E203B9A3CEEF5F42727B3F69AFF77F /* HKYLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		273935C56DE3A372A450676125E5C2EA /* Pods-HKYLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8379DA7E129C8B1216AEB058A49827E4 /* Build configuration list for PBXNativeTarget "Pods-HKYLib_Example" */;
+			buildPhases = (
+				32ECA4BFE4ACAB8F34322D2B2CB4B912 /* Sources */,
+				9F12DF5B0A449E0D1332EF5DDA6267E0 /* Frameworks */,
+				D4E8739C0B2A74501968A5AAB68E57E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AE129811B780E08E0384BC78974F987 /* PBXTargetDependency */,
+			);
+			name = "Pods-HKYLib_Example";
+			productName = "Pods-HKYLib_Example";
+			productReference = F117DECF51DBE5EBEE6EC7C364D8186D /* Pods_HKYLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D20E648C0C23885F183EFA43A432CD0 /* Pods-HKYLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97DAA16656B33A447386A9C4FD917FA1 /* Build configuration list for PBXNativeTarget "Pods-HKYLib_Tests" */;
+			buildPhases = (
+				19D68F74C087FFC6CD86D2108BD09458 /* Sources */,
+				A1B4178CBF0F92251EA7F670D6C0CC77 /* Frameworks */,
+				911A1E2B4EDD978A92EC1B28F2ED3D4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HKYLib_Tests";
+			productName = "Pods-HKYLib_Tests";
+			productReference = 4FA05875F97B4118D7CCA60C85B9840F /* Pods_HKYLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EE9D9D275E7FECCDCAE3E08BE3E44679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10CC0B74297AEA98B5BC1A270CEFA5FF /* HKYLib */,
+				273935C56DE3A372A450676125E5C2EA /* Pods-HKYLib_Example */,
+				5D20E648C0C23885F183EFA43A432CD0 /* Pods-HKYLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19D68F74C087FFC6CD86D2108BD09458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9152897E4E3E31BB5821011EAEB7425A /* Pods-HKYLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32ECA4BFE4ACAB8F34322D2B2CB4B912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BD112BD5A45D9C2E6633A4390BC2F9 /* Pods-HKYLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1E46F62B990B75A8E56E4C53818446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F273DF29A05CF957702CBC889B6CEFE /* HKYCalculate.m in Sources */,
+				727ED35CBD080F1587059AFF60B38200 /* HKYLib-dummy.m in Sources */,
+				6B2730B89A05210E6F20A884D496BEEB /* HKYLog.m in Sources */,
+				1D89927009215B1BAE30E797F893EF2E /* HKYUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AE129811B780E08E0384BC78974F987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HKYLib;
+			target = 10CC0B74297AEA98B5BC1A270CEFA5FF /* HKYLib */;
+			targetProxy = 0DA841E8664AED2F027E5EAD8944E549 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37AB9E0E9426CA66375B6ADD1805DC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE1E470C598CF02892B3F6E2E8D2BE9 /* Pods-HKYLib_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HKYLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKYLib_Example/Pods-HKYLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HKYLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C895C99AF5C2F8D93F0D0A8EB3CE3881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A759BECA4F1D51E822B794872D26F1 /* HKYLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HKYLib/HKYLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HKYLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HKYLib/HKYLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HKYLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4BEB40E29A79FE60F9EAC4273BD6234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF93D2A1CEDB8A04F2F9CBD5976ADA5 /* Pods-HKYLib_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HKYLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKYLib_Example/Pods-HKYLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HKYLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA9C3538BCABB85B0A62A9F84210FD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60FD72296EDB5B2124DC80DCD3921E7 /* Pods-HKYLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HKYLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKYLib_Tests/Pods-HKYLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HKYLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E037820FC54461BE16DB7A971CED0D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A759BECA4F1D51E822B794872D26F1 /* HKYLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HKYLib/HKYLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HKYLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HKYLib/HKYLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HKYLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAD6AED3EB6F73C41AF5CF1B86303618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAEE2A618760C3870AA216F8884AA37D /* Pods-HKYLib_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HKYLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKYLib_Tests/Pods-HKYLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HKYLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8379DA7E129C8B1216AEB058A49827E4 /* Build configuration list for PBXNativeTarget "Pods-HKYLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BEB40E29A79FE60F9EAC4273BD6234 /* Debug */,
+				37AB9E0E9426CA66375B6ADD1805DC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97DAA16656B33A447386A9C4FD917FA1 /* Build configuration list for PBXNativeTarget "Pods-HKYLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9C3538BCABB85B0A62A9F84210FD1B /* Debug */,
+				EAD6AED3EB6F73C41AF5CF1B86303618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E692CC2563F93FE128E00936D5F26046 /* Build configuration list for PBXNativeTarget "HKYLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C895C99AF5C2F8D93F0D0A8EB3CE3881 /* Debug */,
+				E037820FC54461BE16DB7A971CED0D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

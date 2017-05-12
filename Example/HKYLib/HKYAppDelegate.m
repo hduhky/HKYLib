@@ -7,12 +7,16 @@
 //
 
 #import "HKYAppDelegate.h"
+#import "HKYHeader.h"
 
 @implementation HKYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[HKYCalculate sharedInstance] valueA:5 plusValueB:7];
+    
     return YES;
 }
 

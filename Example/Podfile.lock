@@ -1,0 +1,16 @@
+PODS:
+  - HKYLib (0.1.0)
+
+DEPENDENCIES:
+  - HKYLib (from `../`)
+
+EXTERNAL SOURCES:
+  HKYLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HKYLib: ac4889a7618a2ab119bfba01f9387733dfae5eec
+
+PODFILE CHECKSUM: 94b8427d8c3fa1c85183f0d5b8c1a2cbf193bf3f
+
+COCOAPODS: 1.1.1
