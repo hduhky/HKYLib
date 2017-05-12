@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HKYLib_Example' do
+  pod 'HKYLib', :path => '../'
+
+  target 'HKYLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
